@@ -29,3 +29,8 @@ footer {
     width: 60%;
     margin: 0 auto;
 }
+
+.header-logo img {
+    width: 75px;
+    height: 75px;
+}

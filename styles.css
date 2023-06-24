@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "PT Serif", monospace, sans-serif;
+}
+
+main {
+    height: 100vh;
+}
+
+section, footer {
+    border: 2px solid lightblue;
+
+}
+
+section {
+    height: 25%;
+}
+
+footer {
+    height: 10%;
+}
+
+.content {
+    border: 2px solid black;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+}

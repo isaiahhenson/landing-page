@@ -10,9 +10,9 @@ main {
     height: 100vh;
 }
 
-/* .pic {
-    font-size: 24px;
-} */
+.pic {
+    padding: 10px;
+}
 
 section, footer {
     border: 2px solid lightblue;
@@ -21,6 +21,10 @@ section, footer {
 
 footer {
     height: 10%;
+}
+
+.footer-content {
+    color: white;
 }
 
 .content1 {
@@ -51,6 +55,10 @@ footer {
     height: 100%;
     width: 60%;
     margin: 0 auto;
+}
+
+.section2-content h2 {
+    margin-bottom: 10px;
 }
 
 .content2-wrap {
@@ -84,6 +92,7 @@ footer {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+
 }
 
 .content5 {
@@ -93,6 +102,7 @@ footer {
     margin: 0 auto;
     background: #1F2937;   
 }
+
 
 .header-logo img {
     width: 75px;
@@ -107,10 +117,18 @@ footer {
     overflow: hidden;
 }
 
+.right-content img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+#dog-img {
+    margin-top: 40px;
 }
 
 nav ul{
@@ -120,11 +138,16 @@ nav ul{
     justify-content: flex-end;
     flex-wrap: wrap;
     margin-right: 15px;
+    margin-bottom: 30px;
 }
 
 a {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 900;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
@@ -145,6 +168,7 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
     flex: 1;
+    padding-bottom: 40px;
 }
 
 .box {
@@ -152,6 +176,7 @@ a:hover {
     height: 100px;
     border: 2px solid grey;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 div > h2 {
@@ -159,7 +184,7 @@ div > h2 {
     color: #1F2937;
     font-weight: 900;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 div > h2, span {
@@ -171,6 +196,11 @@ div > h2, span {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+.section3-content p{
+    padding-top: 30px;
+    line-height: 1.5em;
 }
 
 #span1 {
@@ -191,6 +221,7 @@ div > h2, span {
     align-items: center;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);    
 }
 
 .section4-left {
@@ -211,6 +242,14 @@ div > h2, span {
     padding: 0;
 }
 
+.section4-content{
+    line-height: 1.5rem;
+}
+
+.section4-right {
+    padding-right: 30px;
+}
+
 .footer-content {
     display: flex;
     justify-content: center;
@@ -221,13 +260,13 @@ div > h2, span {
 button {
     background: #3882F6;
     color: white;
-    font-size: 16px;
-    border-radius: 6px;
-    margin: 10px;
-    width: 90px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 15px;
+    width: 100px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin-left: 20px;
-
+    padding: 4px 6px;
 }
 
 .right-content img {

@@ -14,11 +14,6 @@ main {
     padding: 10px;
 }
 
-section, footer {
-    border: 2px solid lightblue;
-
-}
-
 footer {
     height: 10%;
 }
@@ -29,7 +24,6 @@ footer {
 
 .content1 {
     display: flex;
-    border: 2px solid black;
     height: 100%;
     width: 60%;
     margin: 0 auto;
@@ -51,7 +45,6 @@ footer {
 }
 
 .content2 {
-    border: 2px solid black;
     height: 100%;
     width: 60%;
     margin: 0 auto;
@@ -62,14 +55,12 @@ footer {
 }
 
 .content2-wrap {
-    border: 2px solid black;
     height: 100%;
     width: 70%;
     margin: 0 auto;
 }
 
 .content3 {
-    border: 2px solid black;
     height: 100%;
     width: 60%;
     margin: 0 auto;
@@ -86,7 +77,6 @@ footer {
 
 .content4 {
     display: flex;
-    border: 2px solid black;
     height: 150px;
     width: 60%;
     margin: 0 auto;
@@ -96,7 +86,6 @@ footer {
 }
 
 .content5 {
-    border: 2px solid black;
     height: 100%;
     width: 60%;
     margin: 0 auto;
@@ -278,9 +267,5 @@ button {
     padding-right: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-div > h3 + p {
-
 }
 
